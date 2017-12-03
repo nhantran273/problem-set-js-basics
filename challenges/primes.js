@@ -9,4 +9,15 @@
 
 */
 
-// YOUR CODE HERE
+// YOUR CODE 
+function isPrime (n){
+	var i = 2;
+	for (i = 2; i < 10; i ++){
+		if (n % 1== 0) {
+			return false
+		} else{
+			return n != 1
+		}
+	}
+};
+
